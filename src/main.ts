@@ -61,17 +61,17 @@ async function bootstrap() {
       password: process.env.APP_ADMIN_PASS
     });
 
-    logger.log(`Loading all Things...`);
-    const status = await registerThings(userLogin.data.access_token);
+    /*logger.log(`Loading all Things...`);
+    const status = await registerThings(userLogin.data.access_token);*/
 
 
     logger.log(`Initiating devices...`);
 
-    //const coapPlugin = new CoapPlugin(userLogin.data.access_token, {'simulate': false, 'frequency': 2000, 'deviceId': 'coap-1', 'propName': 'co2'});
-    //const coapServer = new CoapServer();
+    const coapPlugin = new CoapPlugin(userLogin.data.access_token, {'simulate': false, 'frequency': 2000, 'deviceId': 'coap-1', 'propName': 'co2'});
+    const coapServer = new CoapServer();
 
-    //coapServer.start();
-    //await coapPlugin.start();
+    coapServer.start();
+    await coapPlugin.start();
 
     const electricityMeter = new ElectricityMeter(userLogin.data.access_token, {'simulate': false, 'frequency': 360000, 'deviceId': 'electricityMeter-1', 'propName': 'electricity'});
     await electricityMeter.start();
@@ -88,7 +88,7 @@ async function bootstrap() {
 
 
 
-    if (!status) process.exit();
+    //if (!status) process.exit();
 
 
   } catch(error){
