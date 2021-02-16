@@ -1,0 +1,14 @@
+{
+  "id": "Edificio-30272",
+  "idActivo": 30272,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139 Instalación EBAP TRAPICHE",
+  "description": "139 Instalación EBAP TRAPICHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    
+  }
+}

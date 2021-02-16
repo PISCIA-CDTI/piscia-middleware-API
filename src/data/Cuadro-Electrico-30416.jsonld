@@ -1,0 +1,14 @@
+{
+  "id": "Cuadro-Electrico-30416",
+  "idActivo": 30416,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139 Cuadro B3 EBAP TRAPICHE",
+  "description": "139 Cuadro B3 EBAP TRAPICHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    
+  }
+}

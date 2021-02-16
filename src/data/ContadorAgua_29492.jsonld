@@ -1,0 +1,19 @@
+{
+  "id": "MOLINILLO-RIO-VERDE-29492",
+  "idActivo": 29492,
+  "@type": ["saref:FlowMeter", "geo:Feature"],
+  "title": "Contador agua -  Bombeo EBAP TRAPICHE",
+  "description": "Contador agua -  Bombeo EBAP TRAPICHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    "waterflow": {
+      "description" : "Water Flow Measurement",
+      "type": "number",
+      "unit": "m3/s",
+      "readOnly": true
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "id": "electricityMeter-1",
-  "idActivo": 29554,
+  "id": "Bomba-Agua-29849",
+  "idActivo": 29849,
   "@type": ["saref:SmartMeter", "geo:Feature"],
   "title": "General Electricity Consumption",
   "description": "General Electricity Consumption",
@@ -9,10 +9,10 @@
     "coordinates": [41.5462745, 2.1086131]
   },
   "properties": {
-    "electricity": {
-      "description" : "Electricity Measurement",
+    "waterflow": {
+      "description" : "Waterflow Measurement",
       "type": "number",
-      "unit": "kilowattHour",
+      "unit": "m3/s",
       "readOnly": true
     }
   }

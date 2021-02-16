@@ -1,0 +1,19 @@
+{
+  "id": "Medidor-Presion-29883",
+  "idActivo": 29883,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139 Presión Aspiración EBAP TRAPICHE",
+  "description": "139 Presión Aspiración EBAP TRAPICHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    "pressure": {
+      "description" : "Water Pressure Measurement",
+      "type": "number",
+      "unit": "Pa",
+      "readOnly": true
+    }
+  }
+}

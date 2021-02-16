@@ -1,0 +1,14 @@
+{
+  "id": "Controlador-Automatico-30407",
+  "idActivo": 30407,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139- Bombeo TRAPICHE",
+  "description": "139- Bombeo TRAPICHEE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    
+  }
+}

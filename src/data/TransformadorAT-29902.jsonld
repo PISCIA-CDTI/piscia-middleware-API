@@ -1,0 +1,14 @@
+{
+  "id": "Transformador-AT-29902",
+  "idActivo": 29902,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139 Transformador C.T. TRAPICHE",
+  "description": "139 Transformador C.T. TRAPICHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "Aire-Acondicionado-29735",
+  "idActivo": 29735,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139 Aire/A EBAP TRAPICHE",
+  "description": "139 Aire/A EBAP TRAPICHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+  }
+}

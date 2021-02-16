@@ -1,0 +1,14 @@
+{
+  "id": "Extintor-30229",
+  "idActivo": 30229,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139 Extintor EBAP TRAPICHE 5kg CO2",
+  "description": "139 Extintor EBAP TRAPICHE 5kg CO2",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    
+  }
+}

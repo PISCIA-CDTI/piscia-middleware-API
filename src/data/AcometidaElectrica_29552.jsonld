@@ -1,0 +1,14 @@
+{
+  "id": "Acometida-Electrica-29552",
+  "idActivo": 29552,
+  "@type": ["saref:Device", "geo:Feature"],
+  "title": "Acoemtida Electrica-EBAP-TIRABICHE",
+  "description": "Acoemtida Electrica-EBAP-TIRABICHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+
+  }
+}

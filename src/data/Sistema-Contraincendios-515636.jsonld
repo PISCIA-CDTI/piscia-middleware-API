@@ -1,0 +1,14 @@
+{
+  "id": "Sistema-Contraincendios-515636",
+  "idActivo": 515636,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139 Sistema Contraincendios EBAP TRAPICHE",
+  "description": "139 Sistema Contraincendios EBAP TRAPICHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    
+  }
+}

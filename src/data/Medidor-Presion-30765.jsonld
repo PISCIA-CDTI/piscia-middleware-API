@@ -1,0 +1,19 @@
+{
+  "id": "Medidor-Presion-30765",
+  "idActivo": 30765,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "Presión Impulsión Ebap Trapiche",
+  "description": "Presión Impulsión Ebap Trapiche",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    "pressure": {
+      "description" : "Water Pressure Measurement",
+      "type": "number",
+      "unit": "Pa",
+      "readOnly": true
+    }
+  }
+}

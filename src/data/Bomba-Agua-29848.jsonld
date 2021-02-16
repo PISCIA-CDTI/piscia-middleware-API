@@ -1,0 +1,19 @@
+{
+  "id": "Bomba-Agua-29848",
+  "idActivo": 29848,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139 Bomba 3 EBAP TRAPICHE",
+  "description": "139 Bomba 3 EBAP TRAPICHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    "waterflow": {
+      "description" : "Waterflow Measurement",
+      "type": "number",
+      "unit": "m3/s",
+      "readOnly": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Equipo-Control-Remoto-30316",
+  "idActivo": 30316,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139 Remota EBAP TRAPICHE",
+  "description": "139 Remota EBAP TRAPICHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Extintor-30228",
+  "idActivo": 30228,
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "139 Extintor C.T. TRAPICHE 5kgCO2",
+  "description": "139 Extintor C.T. TRAPICHE 5kgCO2",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    
+  }
+}
