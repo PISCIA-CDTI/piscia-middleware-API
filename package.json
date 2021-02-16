@@ -55,7 +55,8 @@
     "rimraf": "^3.0.2",
     "rxjs": "^6.5.5",
     "sparql-http-client": "^2.2.2",
-    "swagger-ui-express": "^4.1.4"
+    "swagger-ui-express": "^4.1.4",
+    "ws": "^5.2.2"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
