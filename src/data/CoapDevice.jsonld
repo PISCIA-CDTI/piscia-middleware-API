@@ -1,0 +1,22 @@
+{
+  "id": "coap-1",
+  "@type": ["saref4watr:WaterDevice", "geo:Feature"],
+  "title": "Test Coap",
+  "description": "A COAP Example server",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    "co2": {
+      "description" : "CO2 concentration",
+      "type": "number",
+      "unit": "ppm",
+      "readOnly": true
+    }
+  },
+  "links": [
+    {
+      "href":"coap://localhost:5683"
+    }]
+}

@@ -1,0 +1,1 @@
+npx ts-node electricity-meter.ts SIMULATE

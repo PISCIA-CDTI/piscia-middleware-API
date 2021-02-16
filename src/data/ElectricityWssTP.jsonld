@@ -1,0 +1,18 @@
+{
+  "id": "electricityMeter-1",
+  "@type": ["saref:SmartMeter", "geo:Feature"],
+  "title": "General Electricity Consumption",
+  "description": "A COAP Example server",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [41.5462745, 2.1086131]
+  },
+  "properties": {
+    "electricity": {
+      "description" : "Electricity Measurement",
+      "type": "number",
+      "unit": "kilowattHour",
+      "readOnly": true
+    }
+  }
+}
