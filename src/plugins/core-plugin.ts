@@ -42,7 +42,7 @@ export abstract class CorePlugin {
         else {
             measurement['timestamp'] = isoTimestamp();
         }
-        this.logger.log(`updating at ${process.env.ROOT_URL}/things/${this.localParams["deviceId"]}/properties/${paramName}`)
+        this.logger.log(`updating at ${process.env.ORIGIN}/things/${this.localParams["deviceId"]}/properties/${paramName}`)
 
         this.logger.log(` ${moment (timestamp, formatter).toISOString()}`);
         this.logger.log(` ${isoTimestamp()}`);
@@ -50,7 +50,7 @@ export abstract class CorePlugin {
         this.ws.send(JSON.stringify({
             event: "wow-data",
             data: {
-                id:`${process.env.ROOT_URL}/things/${this.localParams["deviceId"]}/properties/${paramName}`,
+                id:`${process.env.ORIGIN}/things/${this.localParams["deviceId"]}/properties/${paramName}`,
                 measurement: measurement
             }
         }));
