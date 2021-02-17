@@ -97,14 +97,14 @@ export class ThingsService {
         const otherThing = JSON.parse(JSON.stringify(thing));
         delete otherThing.properties;
 
-        let newThing = new this.thingModel(otherThing);
-        newThing.id = process.env.ROOT_URL + '/things/' + newThing.id;
+        const newThing = new this.thingModel(otherThing);
+        newThing.id = process.env.ORIGIN + '/things/' + newThing.id;
         newThing.properties = [];
 
         if (!newThing.hasOwnProperty('@context')){
             newThing['@context'] = [
-                'http://ibathwater.com/context.jsonld',
-                'http://ibathwater.com/geo-context.jsonld'
+                'http://piscia.com/context.jsonld',
+                'http://piscia.com/geo-context.jsonld'
             ]
         }
 

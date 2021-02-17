@@ -61,11 +61,11 @@ async function bootstrap() {
       password: process.env.APP_ADMIN_PASS
     });
 
-    /*logger.log(`Loading all Things...`);
+    logger.log(`Loading all Things...`);
     const status = await registerThings(userLogin.data.access_token);
-    //if (!status) process.exit();*/
+    if (!status) process.exit();
 
-    logger.log(`Initiating devices...`);
+    /*logger.log(`Initiating devices...`);
 
     const coapPlugin = new CoapPlugin(userLogin.data.access_token, {'simulate': false, 'frequency': 2000, 'deviceId': 'coap-1', 'propName': 'co2'});
     const coapServer = new CoapServer();
@@ -83,7 +83,7 @@ async function bootstrap() {
     await FlowMeter2.start();
 
     const FlowMeter3 = new FlowMeter(userLogin.data.access_token, {'simulate': true, 'frequency': 360000, 'deviceId': 'MOLINILLO-RIO-VERDE-29492', 'propName': 'flowmeter'});
-    await FlowMeter3.start();
+    await FlowMeter3.start();*/
 
 
   } catch(error){
