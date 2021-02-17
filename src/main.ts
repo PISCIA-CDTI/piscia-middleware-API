@@ -62,8 +62,8 @@ async function bootstrap() {
     });
 
     /*logger.log(`Loading all Things...`);
-    const status = await registerThings(userLogin.data.access_token);*/
-    //if (!status) process.exit();
+    const status = await registerThings(userLogin.data.access_token);
+    //if (!status) process.exit();*/
 
     logger.log(`Initiating devices...`);
 

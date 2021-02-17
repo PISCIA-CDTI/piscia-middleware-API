@@ -12,7 +12,7 @@ export const randomFloat = (low, high) => {
 
 export const addDevice = async (token: string, device) => {
     try{
-        const response = await axios.post(`${process.env.ROOT_URL}/things`,
+        const response = await axios.post(`${process.env.ORIGIN}/things`,
             device,
             {
                 headers: {
